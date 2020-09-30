@@ -37,9 +37,64 @@ fieldset label{
 
 form input{
     display: block;
-    width: 80%;
+    width: 50%;
     padding: 5px;
     border: 1px solid gray;
     border-radius: 2px;
 
+}
+
+form input[type="submit"]{
+    background-color: goldenrod;
+    border-color:#a88734 #9c7e31 #846a29;
+    font-size: 90%;
+}
+
+/* Translate for need help section*/
+
+.need-help{
+    transform: translate(-7vw,0);
+}
+
+/* Media Query*/
+@media(max-width: 650px){
+    .need-help{
+        transform: translate();
+    }
+}
+
+h6,button{
+    width: 75%;
+    text-align: center;
+}
+
+h6{
+    color: #767676;
+    border-bottom: 1px solid #767676;
+    line-height: 0.1em;
+    margin: 30px 0 20px;  
+}
+
+span{
+    background-color: white;
+    color: #767676;
+    padding: 0 10px;
+}
+
+button{
+    font-size: 90%;
+    padding: 5px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 2px;
+    margin-bottom: ;
+}
+
+
+#footerElem>div>a>p{
+    display: inline;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 80%;
+    margin-right: 20px;
 }
